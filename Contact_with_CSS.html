@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body align="center" leftmargin="40px" topmargin="60px">
+         <font face="brown" color="#FF9999">GET IN TOUCH</font>
+         <hr width="50px" align="center" color="#FFCCCC" />
+          <p>You can get in touch with me via:</p>
+            <strong>email</strong><br></font>
+            magdamaruszka@gmail.com <br><br>
+            <strong>mobile</strong><br>
+            0048604260733 <p><br><br />
+            <hr width="50%" color="#FFCCCC">
+            <br><br />
+
+          <form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="post">
+            <fieldset>
+              <legend>Personal details</legend><br>
+              <label for="name">Name:</label> <input id="name" type="text" name="Name" placeholder="Name"><br>
+              <label for="city">City:</label> <input id="city" type="text" name="City" placeholder="City"><br>
+              <label for="email">Email:</label> <input id=email type="email" name="Email" placeholder="Email"><br>
+              <label for="contactnumber">Contact number:</label> <input id="contactnumber" type="number" name="Contact number" placeholder="Contact number"><br><br>
+            </fieldset><br>
+
+<fieldset><legend>Appointment (checkbox method)</legend><br>
+  <label for="mon">MON</label> <input id="mon" type="checkbox" name="Monday" value="">
+  <label for="tue">TUE</label> <input id="tue" type="checkbox" name="Tuesday" value="">
+  <label for="wed">WED</label> <input id="wed" type="checkbox" name="Wednesday" value="">
+  <label for="thu">THU</label> <input id="thu" type="checkbox" name="Thursday" value="">
+  <label for="fri">FRI</label> <input id="fri" type="checkbox" name="Friday" value=""><br><br>
+</fieldset><br>
+
+<fieldset><legend>Appointment (radio method)</legend><br>
+  <label for="mon">MON</label> <input id="mon" type="radio" name="App" value="Mon">
+  <label for="tue">TUE</label> <input id="tue" type="radio" name="App" value="Tue">
+  <label for="wed">WED</label> <input id="wed" type="radio" name="App" value="Wed">
+  <label for="thu">THU</label> <input id="thu" type="radio" name="App" value="Thu">
+  <label for="fri">FRI</label> <input id="fri" type="radio" name="App" value="Fri"><br><br>
+</fieldset><br>
+
+<fieldset><legend>Services (drop down menu - datalist)</legend><br>
+  <label for="services">Services:</label> <input list="ServicesTypes" id="services" name="Service" value="">
+  <datalist id="ServicesTypes">
+    <option value="Graphic Design"></option>
+    <option value="Visual Communication"></option>
+    <option value="Environmental Design"></option>
+  </datalist><br><br>
+</fieldset><br>
+
+<fieldset><legend>Favorite TV Show (optgroup)</legend><br>
+  <label for="show-select">Choose your favorite TV show</label>
+  <select name="TV_Show" multiple id="show-select">
+
+    <optgroup label="Comedy">
+        <option>Friends</option>
+        <option>Sex and The City</option>
+        <option>Gilmour Girls</option>
+    <optgroup label="Drama">
+        <option>Grey's Anatomy</option>
+        <option>ER</option>
+        <option>24 Hours</option>
+      </select><br><br>
+</fieldset><br>
+
+<fieldset> <legend>Additional Information (textarea)</legend><br>
+  <label for="message">Message:</label> <textarea id="message" name="Message" rows="3" cols="30"></textarea><br><br>
+</fieldset>
+
+            <br><br>
+            <input type="submit" name="Submit" value="Submit"><br>
+          </form>
+          </body>
